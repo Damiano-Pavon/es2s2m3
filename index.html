@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img
+          src="https://e7.pngegg.com/pngimages/134/487/png-clipart-world-earth-globe-computer-icons-earth-globe-orange-thumbnail.png"
+          alt=""
+        />
+        <a class="navbar-brand" href="#offerte-settimana"
+          >Offerte settimanali</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#welcome"
+                >Welcome Summer</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#offerta-giorno">Offerta del giorno</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#last">Last Minute</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Info</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="p-5 mb-4 rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+        <p class="col-md-8 fs-4">
+          Using a series of utilities, you can create this jumbotron, just like
+          the one in previous versions of Bootstrap. Check out the examples
+          below for how you can remix and restyle it to your liking.
+        </p>
+        <button class="btn btn-primary btn-lg" type="button">
+          Example button
+        </button>
+      </div>
+    </div>
+    <div class="offerte-settimana" id="offerte-settimana">
+      <div class="container text-center my-5">
+        <h1>OFFERTE DELLA SETTIMANA</h1>
+        <div class="row row-cols-4 g-5">
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://www.veneto.info/wp-content/uploads/sites/114/venezia-canal-grande-notte.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Venezia</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://static.sky.it/images/skytg24/it/economia/2022/10/29/ponte-ognissanti-vacanze-turismo/roma%20turisti%20ipa.jpg.transform/gallery-horizontal-tablet-2x/c3c602605b6295308878685642170d521fb0b239/img.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Roma</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://images.lonelyplanetitalia.it/uploads/firenze?q=80&p=slider&s=5ea359c02d3477ff82b9bed88a04a7ac"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Firenze</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://www.dovedormire.info/wp-content/uploads/sites/119/torino.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Torino</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="welcome" id="welcome">
+      <div class="container text-center my-5">
+        <h1>Welcome Summer</h1>
+        <div class="row row-cols-6 g-5">
+          <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://www.isoladiibiza.com/wp-content/uploads/2023/07/ibiza.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ibiza</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://mediterraneinews.it/wp-content/uploads/2016/12/tropea_th_1217-750x426.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Marasusa</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://www.theworldofsicily.com/wp-content/uploads/2020/03/Cala-Rossa-Favignana.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cala Rossa</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://a.cdn-hotels.com/gdcs/production34/d1107/d25008db-1cc4-4384-afe1-77d873fd5771.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">La Pelosa</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://a.cdn-hotels.com/gdcs/production189/d164/3e9fe546-4ce2-4370-a762-84a261b90ecb.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Porto Giunco</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://cdn.getyourguide.com/img/location/5fb3e1b337a16.jpeg/49.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Navagio</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offerta-giorno container d-none d-md-block" id="offerta-giorno">
+      <h1>Offerta del giorno</h1>
+      <div class="card">
+        <div class="row d-flex">
+          <div class="col-8">
+            <img
+              src="https://www.veneto.info/wp-content/uploads/sites/114/venezia-canal-grande-notte.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-4">
+            <div class="card-body">
+              <h5 class="card-title">Venezia</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 3 mins ago</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="last-minute" id="last">
+      <div class="container text-center my-5">
+        <h1>LAST MINUTE</h1>
+        <h3>Torino</h3>
+        <div class="row row-cols-4 g-5 m-5">
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://www.dovedormire.info/wp-content/uploads/sites/119/torino.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://tourismmedia.italia.it/is/image/mitur/20220223132855-piazza-san-carlo-torino-piemonte-shutterstock-2102981095-rid?wid=1080&hei=660&fit=constrain,1&fmt=webp"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://www.guidatorino.com/wp-content/uploads/2014/11/palazzo-reale-torino-interno.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://wips.plug.it/cips/initalia.virgilio.it/cms/2023/04/torino-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <h3>Firenze</h3>
+        <div class="row row-cols-4 g-5 m-5">
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://images.lonelyplanetitalia.it/uploads/firenze?q=80&p=slider&s=5ea359c02d3477ff82b9bed88a04a7ac"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://unasardatralenuvole.com/wp-content/uploads/2022/01/DSC02243.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://hips.hearstapps.com/hmg-prod/images/florence-royalty-free-image-1674549002.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img
+                src="https://www.hotelbrunelleschi.it/wp-content/webp-express/webp-images/uploads/monumenti-aperti-firenze-1-800x534.jpg.webp"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial container" id="testimonial">
+      <h1>TESTIMONIAL</h1>
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner container my-5">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="card text-center">
+              <h5 class="card-header">COMMENTO 1</h5>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="card text-center">
+              <h5 class="card-header">COMMENTO 2</h5>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-center">
+              <h5 class="card-header">COMMENTO 3</h5>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <footer class="container text-center my-5" id="footer">
+      <h3>INFO</h3>
+      <p>Indirizzo: Via Roma 25</p>
+      <p>Cell: 3486799889</p>
+      <button>Contattaci</button>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
